@@ -196,7 +196,7 @@ npm run demo             # 本地假 session + 竞技场: http://127.0.0.1:4118
 
 Hook 会被自动移除。两处可选残留:
 
-- 游戏数据:`rm -rf ~/.claude/slime`
+- 游戏数据:`rm -rf ~/.claude/slime`(Windows PowerShell:`Remove-Item -Recurse -Force "$HOME\.claude\slime"`)
 - 状态栏:若 `/slime:setup` 接过 HUD,删除(或还原)`~/.claude/settings.json` 里的 `statusLine` 项
 
 ## 许可

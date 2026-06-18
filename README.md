@@ -196,7 +196,7 @@ No build step, no `.ts` source — TypeScript is JSDoc-only, checked with `tsc`.
 
 Hooks are removed automatically. Two optional leftovers:
 
-- Game data: `rm -rf ~/.claude/slime`
+- Game data: `rm -rf ~/.claude/slime` (Windows PowerShell: `Remove-Item -Recurse -Force "$HOME\.claude\slime"`)
 - Statusline: if `/slime:setup` wired the HUD, remove (or restore) the `statusLine` entry in `~/.claude/settings.json`
 
 ## License
